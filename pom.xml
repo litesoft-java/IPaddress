@@ -5,19 +5,19 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.litesoft</groupId>
-    <artifactId>background_processing</artifactId>
-    <version>1.0.3</version>
+    <artifactId>ipaddress</artifactId>
+    <version>1.0.0</version>
     <packaging>jar</packaging>
 
-    <name>background_processing</name>
+    <name>ipaddress</name>
 
-    <description>Library to support long running Background Processes</description>
-    <url>https://github.com/litesoft-java/BackgroundProcessing</url>
+    <description>Format Verification and normalization of IPv4 and IPv6 address</description>
+    <url>https://github.com/litesoft-java/IPaddress</url>
 
     <licenses>
         <license>
             <name>The Unlicense</name>
-            <url>https://github.com/litesoft-java/BackgroundProcessing/blob/master/LICENSE</url>
+            <url>https://github.com/litesoft-java/IPaddress/blob/master/LICENSE</url>
         </license>
     </licenses>
 
@@ -36,9 +36,9 @@
     </developers>
 
     <scm>
-        <connection>scm:git:git://github.com/litesoft-java/BackgroundProcessing.git</connection>
-        <developerConnection>scm:git:ssh://github.com:litesoft-java/BackgroundProcessing.git</developerConnection>
-        <url>https://github.com/litesoft-java/BackgroundProcessing</url>
+        <connection>scm:git:git://github.com/litesoft-java/IPaddress.git</connection>
+        <developerConnection>scm:git:ssh://github.com:litesoft-java/IPaddress.git</developerConnection>
+        <url>https://github.com/litesoft-java/IPaddress</url>
     </scm>
 
     <distributionManagement>
@@ -56,26 +56,11 @@
     </properties>
 
     <dependencies>
-        <!--suppress VulnerableLibrariesLocal -->
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-            <version>1.18.28</version>
-            <optional>true</optional>
-        </dependency>
-
         <dependency>
             <groupId>org.litesoft</groupId>
             <artifactId>annotations</artifactId>
             <version>2.1.1</version>
         </dependency>
-
-        <dependency>
-            <groupId>org.litesoft</groupId>
-            <artifactId>exceptional_functional_interfaces</artifactId>
-            <version>1.0.0</version>
-        </dependency>
-
         <!-- Test dependencies -->
         <dependency>
             <groupId>org.junit.jupiter</groupId>
